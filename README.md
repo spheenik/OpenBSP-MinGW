@@ -1,3 +1,10 @@
+# Dependencies:
+
+glew
+glfw
+glm
+
+
 # OpenBSP-MinGW
 
 OpenBSP based off of Bumrang's original project.

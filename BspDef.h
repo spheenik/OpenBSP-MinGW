@@ -79,14 +79,14 @@ typedef struct _Edge {
 
 typedef struct _Face {
     unsigned short planeIndex;
-    unsigned __int8 side;
-    unsigned __int8 onNode;
+    unsigned char side;
+    unsigned char onNode;
     int firstEdge;
     short numEdges;
     short texInfo;
     short dispInfo;
     short surfaceFogVolumeID;
-    unsigned __int8 styles[4];
+    unsigned char styles[4];
     int lightOfs;
     float area;
     int lightmapTextureMinsInLuxels[2];

@@ -6,7 +6,7 @@
  */
 
 #include "Shader.h"
-#include <GLEW/glew.h>
+#include <GL/glew.h>
 
 Shader::Shader()
 	: m_VertexShader(0),

@@ -7,7 +7,7 @@
 
 #include "Shader.h"
 #include "ShaderManager.h"
-#include "GLEW/glew.h"
+#include "GL/glew.h"
 #include <stdlib.h>
 
 // Maximum line length of a shader's source file

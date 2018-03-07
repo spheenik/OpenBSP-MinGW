@@ -11,7 +11,7 @@
 #include "Image.h"
 #include "BspDef.h"
 
-#include "GLEW/glew.h"
+#include "GL/glew.h"
 #include "glm/glm.hpp"
 
 class LightMapNode 

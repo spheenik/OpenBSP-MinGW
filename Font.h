@@ -8,10 +8,10 @@
 #ifndef FONT_H
 #define	FONT_H
 
-#include "GLEW/glew.h"
+#include "GL/glew.h"
 #include "GLFW/glfw3.h"
 
-#include "shareddefs.h"
+#include "SharedDefs.h"
 
 class Font
 {

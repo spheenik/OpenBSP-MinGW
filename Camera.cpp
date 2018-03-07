@@ -6,8 +6,8 @@
  */
 
 #include "Camera.h"
-#include "utils.h"
-#include "shareddefs.h"
+#include "Utils.h"
+#include "SharedDefs.h"
 
 Camera::Camera(int width, int height) 
 	: position(0.0f, 0.0f, 1.0f),

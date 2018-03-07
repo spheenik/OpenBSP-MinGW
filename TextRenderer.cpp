@@ -9,7 +9,6 @@
 #include "ShaderManager.h"
 
 #include <vector>
-#include <glm\vec4.hpp>
 
 TextRenderer*			TextRenderer::s_instance = NULL;
 const int				TextRenderer::DEFAULT_COLOR = 0xFFFFFFFF;

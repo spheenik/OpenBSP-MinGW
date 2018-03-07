@@ -9,6 +9,7 @@
 #define	SHAREDDEFS_H
 
 #include <ft2build.h>
+#include <freetype/freetype.h>
 #include FT_FREETYPE_H
 
 extern FT_Library ft_lib;

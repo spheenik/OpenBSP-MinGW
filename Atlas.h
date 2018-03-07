@@ -10,12 +10,12 @@
 
 #include <cstdlib>
 
-#include "GLEW/glew.h"
+#include "GL/glew.h"
 #include "GLFW/glfw3.h"
 
 #include "glm/glm.hpp"
 
-#include "shareddefs.h"
+#include "SharedDefs.h"
 #include "Font.h"
 
 class Atlas 

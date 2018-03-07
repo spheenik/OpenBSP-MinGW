@@ -8,7 +8,7 @@
 #ifndef TEXTRENDERER_H
 #define	TEXTRENDERER_H
 
-#include "GLEW/glew.h"
+#include "GL/glew.h"
 #include "GLFW/glfw3.h"
 
 #include "Shader.h"

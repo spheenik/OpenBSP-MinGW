@@ -17,7 +17,7 @@ Atlas::Atlas(Font font, int fontSize)
 
 	strcpy(name, font.GetName());
 	char szFontSize[32];
-	itoa(fontSize, szFontSize, 10);
+	snprintf(szFontSize, 32, "%d", szFontSize);
 	strcat(name, szFontSize);
 	
 	printf("Atlas: %s\n", name);
